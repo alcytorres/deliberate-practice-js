@@ -38,13 +38,21 @@ console.log(firstLetter("ice"));
 
 
 // # 6. Write a method that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the method and print the result.
+function combineStrings(string1, string2, string3) {
+  return `${string1} ${string2} ${string3}` 
+}
 
+console.log(combineStrings("zero", "cool", "star"))
 
 // # 7. Write a method that takes in a number and returns the number as a string. Then run the method and print the result.
 
 
 // # 8. Write a method that takes in a string and returns the string repeated 5 times. Then run the method and print the result.
+function stringRepeat(string) {
+  return string + ' ' + string + ' ' + string + ' ' + string + ' ' + string
+}
 
+console.log(stringRepeat("star"))
 
 // # 9. Write a method that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the method and print the result.
 

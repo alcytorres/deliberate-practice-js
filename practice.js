@@ -1,27 +1,27 @@
 // Intro
-// let word = "Hello World"
-// console.log(word)
+let word = "Hello World"
+console.log(word)
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 // Variables
-// let name = "alcy"
-// console.log(name);
+let name = "alcy"
+console.log(name);
 
-// let firstName = "alcy";
-// let lastName = "torres";
-// console.log(firstName, lastName);
+let firstName = "alcy";
+let lastName = "torres";
+console.log(firstName, lastName);
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 //constants
 
 // Results in error: TypeError: Assignment to constant variable.
-// const interestRate = 0.3;
-// interestRate = 1;
-// console.log(interestRate);
+const interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate);
 
 // Correct use of Const
-// const interestRate = 0.3;
-// console.log(interestRate);
+const interestRate = 0.3;
+console.log(interestRate);
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 //Primitive Types = String, Number, Boolean, Underfined, null
@@ -48,8 +48,8 @@ console.log(typeof selectColor);  // "object"
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 //Reference Types: Object, Array, Function
 //Object
-// let name = "alcy";
-// let age = 23;
+let name = "alcy";
+let age = 23;
 let person = {
   name: "alcy",
   age: 23, 
@@ -58,10 +58,10 @@ console.log(person);
 //=> { name: 'alcy', age: 23 }
 
 // Dot notaion 
-// person.name = "John";
+person.name = "John";
 
 //Bracket Notation
-// person["name"] = "Mary";
+person["name"] = "Mary";
 
 let selection = "name";
 person[selection] = "mary"
@@ -85,16 +85,16 @@ console.log(selectedColors.length);
 // Note Function = Objects
 // Functions are a set of statemetns that perform a task or calcualte a value
 
-// function greet() {
-//   console.log("Hello World");
-// }
+function greet() {
+  console.log("Hello World");
+}
 
-// function greet(name) {
-//   console.log("Hello " + name);
-// }
+function greet(name) {
+  console.log("Hello " + name);
+}
 
-// greet("Alcy");
-// greet("Mary");
+greet("Alcy");
+greet("Mary");
 
 //name is a parameter of the greet function
 //"Alcy" is an argument of the greet function

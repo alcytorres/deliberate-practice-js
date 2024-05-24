@@ -14,12 +14,26 @@ console.log(array);
 
 
 // # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+let numbers = [1, 2, 3, 4, 5];
+let index = 0;
+while (index < numbers.length) {
+  console.log(numbers[index]);
+  index++;
+}
 
 
 // # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+let numbers1 = [1];
+numbers1.push(3, 5, 7)
+
+console.log(numbers1)
 
 
 // # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+let strings = ["hello", "hello", "hello"];
+strings[2] = strings[2].toUpperCase();
+console.log(strings);
+
 
 
 // # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
