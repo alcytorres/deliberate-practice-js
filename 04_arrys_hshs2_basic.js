@@ -59,13 +59,13 @@ console.log(laptop.model)
 console.log(laptop.year)
 
 
-
-
 // # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
 
 
 // # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
+
+
 
 // # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 // shirt = {brand: "nike", color: "white", size: "medium"}

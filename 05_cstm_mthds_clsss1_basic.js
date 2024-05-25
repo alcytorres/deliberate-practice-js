@@ -33,8 +33,8 @@ console.log(product(7));
 function firstLetter(string) {
   return string[0];
 }
-console.log(firstLetter("ice"));
 
+console.log(firstLetter("Rhino"));
 
 
 // # 6. Write a method that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the method and print the result.
@@ -55,6 +55,17 @@ function stringRepeat(string) {
 console.log(stringRepeat("star"))
 
 // # 9. Write a method that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the method and print the result.
+function average(number1, number2, number3) {
+  return (number1 + number2 + number3) / 3;
+}
 
+console.log(average(10, 20, 30));
 
 // # 10. Write a method that takes in a number and returns the number times 10 plus 30. Then run the method and print the result.
+function product(number) {
+  return number * 10 + 30;
+}
+
+console.log(product(100));
+
+

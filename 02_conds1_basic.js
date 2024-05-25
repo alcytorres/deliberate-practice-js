@@ -1,9 +1,9 @@
 // # 1. Use a variable to store a number, then write a condition that prints 0 if the number is equal to 10, and prints -1 otherwise.
 let number = 5;
-if (number == 10) {
-console.log(0);
+if (number === 10) {
+  console.log(0);
 } else {
-console.log(-1); }
+  console.log(-1); }
 
 
 // # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
@@ -76,6 +76,27 @@ if (number8 === 100) {
 }
 
 // # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
+let number9 = -4;
+let number10 = 23;
+if (number9 < 0 && number10 > 0) {
+  console.log(1); 
+} else {
+  console.log(0);
+}
 
 
 // # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
+
+let number11 = 7;
+if (number11 > 80) {
+  console.log(5);
+} else if (number11 > 60) {
+  console.log(4);
+} else if (number11 > 40) {
+  console.log(3);
+} else if (number11 > 20) {
+  console.log(2);
+} else {
+  console.log(1);
+}
+

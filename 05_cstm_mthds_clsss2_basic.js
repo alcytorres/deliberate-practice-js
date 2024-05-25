@@ -40,22 +40,69 @@ class Location {
   }
 }
 
-let location = new Location(1025, 3070)
-console.log(location)
+let location = new Location(1025, 3070);
+console.log(location);
 
 // # 5. Write an Account class with attributes for name and balance.
+class Account {
+  constructor(name, balance) {
+    this.name = name;
+    this.balance = balance;
+  }
+}
 
+let account = new Account("Checking", 10000);
+console.log(account);
 
 // # 6. Write a Movie class with attributes for title, director, and year.
+class Movie {
+  constructor (title, director, year) {
+    this.title = title;
+    this.director = director;
+    this.year = year;
+  }
+}
 
+let movie = new Movie("Inception", "Chris Nolan", 2010);
+console.log(movie);
 
 // # 7. Write a Car class with attributes for make, model, year, and color.
+class Car {
+  constructor(make, model, year, color) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.color = color;
+  }
+}
 
+let car = new Car("Tesla", "Model X", "2023", "Red");
+console.log(car);
 
 // # 8. Write a Point class with attributes for x, y, and z coordinates.
+class Point {
+  constructor(x, y, z) {
+    this.x = x;
+    this.y = y;
+    this.z = z;
+  }
+}
+
+let point = new Point(2, 4, 6);
+console.log(point);
+
 
 
 // # 9. Write a Book class with attributes for title, author, and year.
+class Book {
+  constructor(title, author, year) {
+    this.title = title;
+    this.author = author;
+    this.year = year;
+  }
+}
 
+let book = new Book("The Adventure's of Tom Sawyer", "Mark Twain", 1850);
+console.log(book);
 
 // # 10. Write a Plant class with attributes for name, size, and price.
