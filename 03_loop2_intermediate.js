@@ -84,13 +84,29 @@ console.log(numbers2Divided);
 
 
 // # 8. Start with an array of strings and create a new array with each string's first letter only.
-// #    For example, ["hello", "goodbye"] becomes ["h", "g"].
+//      For example, ["hello", "goodbye"] becomes ["h", "g"].
+let string = ["hello", "goodbye"];
+let firstLetter = [];
+let index7 = 0;
+while (index7 < string.length) {
+  firstLetter.push(string[index7][0]);
+  index7++;
+}
 
+console.log(firstLetter);
 
 // # 9. Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
-// #    For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+//     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+let people2 = [{name: "Alice", age: 27}, {name: "Blane", age: 16}];
+let getDouble = [];
+let index8 = 0;
+while (index8 < people2.length) {
+  getDouble.push(people2[index8].age * 2);
+  index8++;
+}
 
+console.log(getDouble);
 
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
-// #     For example, [1, 2, 3] becomes ["1", "2", "3"].
+//       For example, [1, 2, 3] becomes ["1", "2", "3"].
 

@@ -40,11 +40,11 @@ console.log(parseInt(number4));
 // 9. Write a program that uses a variable to store two numbers, then prints the two numbers multiplied together.
 let number5 = 4;
 let number6 = 7;
-console.log(number5 * number6)
+console.log(number5 * number6);
 
 // 10. Write a program that uses a variable to store a word, then prints the word with all lowercase letters.
 let word4 = "SKY";
-console.log(word4.toLowerCase())
+console.log(word4.toLowerCase());
 
 
 

@@ -3,7 +3,8 @@ let number = 5;
 if (number === 10) {
   console.log(0);
 } else {
-  console.log(-1); }
+  console.log(-1); 
+}
 
 
 // # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
@@ -61,12 +62,12 @@ let number7 = 3;
 if (number7 < 0) {
   console.log(1776);
 } else {
-  console.log(1979)
+  console.log(1979);
 }
 
 
 // # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
-let number8 = 25
+let number8 = 25;
 if (number8 === 100) {
   console.log(100);
 } else if (number8 === 99) {

@@ -2,14 +2,14 @@
 let index = 1;
 while (index <= 10) {
   console.log(index);
-  index += 1
+  index += 1;
 }
 
 // # 2. Write a while loop that prints the word "hello" 5 times.
 let index1 = 0;
 while (index1 < 5) {
   console.log("Hello");
-  index1 += 1
+  index1 += 1;
 }
 
 
@@ -22,14 +22,14 @@ while (index1 < 5) {
 let index2 = 0;
 while (index2 <= 100) {
   console.log(index2);
-  index2 += 5
+  index2 += 5;
 }
 
 // # 5. Write a while loop that prints the number 9000 ten times.
 let index3 = 0;
 while (index3 < 10) {
   console.log(9000);
-  index3 += 1
+  index3 += 1;
 }
 
 
@@ -37,17 +37,17 @@ while (index3 < 10) {
 //SKIP
 
 // # 7. Write a while loop that prints the numbers 50 to 70.
-let index4 = 50
+let index4 = 50;
 while (index4 <= 70) {
   console.log(index4);
   index4++;
 }
 
 // # 8. Write a while loop that prints the phrase "Around the world" 144 times.
-let index5 = 0
+let index5 = 0;
 while (index5 < 144) {
   console.log("Around the world");
-  index5++
+  index5++;
 }
 
 

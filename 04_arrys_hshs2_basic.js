@@ -36,7 +36,7 @@ console.log(book.language);
 
 
 // # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
-books = [
+let books = [
   {title: "To Kill a Mockingbird", author: "Harper Lee"},
   {title: "1984", author: "George Orwell"},
   {title: "The Great Gatsby", author: "Scott Fitzgerald"}
@@ -54,9 +54,9 @@ console.log(capitals);
 // # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 // laptop = {brand: "apple", model: "macbook pro", year: 2023 }
 let laptop = {brand: "apple", model: "macbook pro", year: 2023 };
-console.log(laptop.brand)
-console.log(laptop.model)
-console.log(laptop.year)
+console.log(laptop.brand);
+console.log(laptop.model);
+console.log(laptop.year);
 
 
 // # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.

@@ -24,9 +24,9 @@ while (index < numbers.length) {
 
 // # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 let numbers1 = [1];
-numbers1.push(3, 5, 7)
+numbers1.push(3, 5, 7);
 
-console.log(numbers1)
+console.log(numbers1);
 
 
 // # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.

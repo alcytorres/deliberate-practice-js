@@ -11,7 +11,7 @@ class Song {
   }
 }
 
-song = new Song("Dancing Queen", "Abba", "3:50");
+let song = new Song("Dancing Queen", "Abba", "3:50");
 console.log(song);
 song.print_info();
 
