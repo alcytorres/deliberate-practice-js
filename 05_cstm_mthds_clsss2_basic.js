@@ -10,6 +10,7 @@ class Song {
 let song = new Song("Dancing Queen", "Abba", "3:50");
 console.log(song);
 
+
 // # 2. Write a Rectangle class with attributes for width and height.
 class Rectangle {
   constructor(width, height) {

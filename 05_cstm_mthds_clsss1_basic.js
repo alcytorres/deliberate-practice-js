@@ -62,10 +62,16 @@ function average(number1, number2, number3) {
 console.log(average(10, 20, 30));
 
 // # 10. Write a method that takes in a number and returns the number times 10 plus 30. Then run the method and print the result.
-function product2(number) {
+function product3 (number) {
   return number * 10 + 30;
 }
+console.log(product3(10));
 
-console.log(product2(100));
 
+// function product3 (number) {
+//   return number * 10 + 30;
+// }
+
+// let product123 = product3(10);
+// console.log(product123);
 

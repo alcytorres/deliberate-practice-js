@@ -35,8 +35,14 @@ strings[2] = strings[2].toUpperCase();
 console.log(strings);
 
 
-
 // # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
+let names = ["Mike", "Phil", "Trevor"];
+let index1 = 0;
+while (index1 < names.length) {
+  console.log(names[index1]);
+  index1++;
+}
+
 
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 

@@ -1,6 +1,6 @@
 // # 1. Write a Song class with attributes and reader/writer methods for name, artist, and duration. Then write a method that prints the name, artist, and duration in a single sentence.
 class Song {
-  constructor(name, artist, duration) {
+  constructor (name, artist, duration) {
     this.name = name;
     this.artist = artist;
     this.duration = duration;
@@ -14,6 +14,7 @@ class Song {
 let song = new Song("Dancing Queen", "Abba", "3:50");
 console.log(song);
 song.print_info();
+
 
 
 // # 2. Write a Rectangle class with attributes and reader/writer methods for width and height. Then write a method that returns the area of the rectangle.

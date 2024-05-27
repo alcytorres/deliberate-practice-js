@@ -43,7 +43,7 @@ let number6 = 7;
 console.log(number5 * number6);
 
 // 10. Write a program that uses a variable to store a word, then prints the word with all lowercase letters.
-let word4 = "SKY";
+let word4 = "FLYING";
 console.log(word4.toLowerCase());
 
 

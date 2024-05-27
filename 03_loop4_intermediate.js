@@ -102,18 +102,42 @@ console.log(lowPriceHash);
 // # 7. Start with an array of numbers and compute product of all the numbers.
 //      For example, [5, 10, 8, 3] becomes 1200.
 let numbers2 = [5, 10, 8, 3];
+let product = 1;
+let index6 = 0;
+while (index6 < numbers.length) {
+  product = product * numbers2[index6];
+  index6++;
+}
+
+console.log(product);
 
 
 // # # 8. Start with an array of strings and combine them all into a single string, separated by dashes.
 //        For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
+let sports2 = ["volleyball", "basketball", "badminton"];
+let sportsCombined1 = "-";
+let index7 = 0;
+while (index7 < sports2.length) {
+  sportsCombined1 = sportsCombined1 + `${sports2[index7]}-`;
+  index7++;
+}
+
+console.log(sportsCombined1);
 
 
+// # 9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
+//       For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
+let items2 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}];
+let shortName = items2[0];
+let index8 = 0;
+while (index8 < items2.length) {
+  let name1 = items2[index8];
+  if (name1.name < shortName.name) {
+    shortName = name1;
+  } index8++;
+}
 
-// # # 9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
-//        For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
-
-
-
+console.log(shortName);
 
 // # 10. Start with an array of numbers and compute the maximum number.
 //       For example, [5, 10, 8, 3] becomes 10.

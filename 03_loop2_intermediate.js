@@ -98,14 +98,15 @@ console.log(firstLetter);
 // # 9. Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 //     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 let people2 = [{name: "Alice", age: 27}, {name: "Blane", age: 16}];
-let getDouble = [];
+let age2 = [];
 let index8 = 0;
 while (index8 < people2.length) {
-  getDouble.push(people2[index8].age * 2);
+  age2.push(people2[index8].age * 2);
   index8++;
 }
 
-console.log(getDouble);
+console.log(age2);
+
 
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
 //       For example, [1, 2, 3] becomes ["1", "2", "3"].

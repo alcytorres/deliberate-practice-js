@@ -111,6 +111,17 @@ console.log(stringsB);
 
 // # 9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 // #    For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
+let items2 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}];
+let cheapItems = [];
+let index8 = 0;
+while (index8 < items2.length) {
+  let cheapItem = items2[index8];
+  if (cheapItem.price < 10) {
+    cheapItems.push(cheapItem);
+  } index8++;
+}
+
+console.log(cheapItems);
 
 
 // # 10. Start with an array of numbers and create a new array with only the odd numbers.

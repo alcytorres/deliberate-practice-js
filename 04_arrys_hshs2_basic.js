@@ -52,7 +52,6 @@ console.log(capitals);
 
 
 // # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
-// laptop = {brand: "apple", model: "macbook pro", year: 2023 }
 let laptop = {brand: "apple", model: "macbook pro", year: 2023 };
 console.log(laptop.brand);
 console.log(laptop.model);
@@ -69,3 +68,4 @@ console.log(laptop.year);
 
 // # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 // shirt = {brand: "nike", color: "white", size: "medium"}
+
