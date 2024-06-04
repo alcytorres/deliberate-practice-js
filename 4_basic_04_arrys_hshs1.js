@@ -1,3 +1,6 @@
+// Write an array, read items from an array, and add new items to existing array
+
+
 // # 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 let words = ["sky", "desert", "glacier"];
 words.push("mountain");
@@ -45,7 +48,9 @@ while (index1 < names.length) {
 
 
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
-
+let string = ["snow", "desert"];
+string.push("forest");
+console.log(string);
 
 // # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
 

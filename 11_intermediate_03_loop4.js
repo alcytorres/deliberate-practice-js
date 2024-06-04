@@ -1,3 +1,6 @@
+// Reduce an array to a single value based on some computation
+
+
 // # 1. Start with an array of numbers and compute the sum of all the numbers.
 // #    For example, [5, 10, 8, 3] becomes 26.
 let numbers = [5, 10, 8, 3];
@@ -131,13 +134,18 @@ let items2 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "b
 let shortName = items2[0];
 let index8 = 0;
 while (index8 < items2.length) {
-  let name1 = items2[index8];
-  if (name1.name < shortName.name) {
-    shortName = name1;
+  let currentItem = items2[index8];
+  if (currentItem.name.length < shortName.name.length) {
+    shortName = currentItem;
   } index8++;
 }
 
 console.log(shortName);
+
+
+
+
+
 
 // # 10. Start with an array of numbers and compute the maximum number.
 //       For example, [5, 10, 8, 3] becomes 10.

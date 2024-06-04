@@ -1,3 +1,6 @@
+// Write a hash, read items from a hash, and add new items to existing hash
+
+
 // # 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
 let person = {firstName: "John", lastName: "Smith", email: "johnsmith@email.com"};
 console.log(person.firstName);
@@ -59,8 +62,13 @@ console.log(laptop.year);
 
 
 // # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+let laptops = [
+  {brand: "Microsoft", model: "Surface" },
+  {brand: "Apple", model: "MacBook Pro"},
+  {brand: "Dell", model: "XPS 13"}
+];
 
-
+console.log(laptops[1].model);
 
 // # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 

@@ -1,3 +1,6 @@
+// Write a custom class with custom methods
+
+
 // # 1. Write a Song class with attributes and reader/writer methods for name, artist, and duration. Then write a method that prints the name, artist, and duration in a single sentence.
 class Song {
   constructor (name, artist, duration) {
@@ -42,24 +45,48 @@ console.log(rectangle.area());
 
 
 // # 5. Write an Account class with attributes and reader/writer methods for name and balance. Then write a method that prints a warning if the balance is below $100.
+class Account {
+  constructor (name, balance) {
+    this.name = name;
+    this.balance = balance;
+  } 
+
+  print_warning() {
+    if (this.balance < 100) {
+      console.log(`WARNING your balance is below $100`);
+    }
+  }
+}
+
+let account = new Account("Checking", 70);
+console.log(account);
+account.print_warning();
+
 
 
 // # 6. Write a Movie class with attributes and reader/writer methods for title, director, and year. Then write a method that prints out the attributes in a single sentence.
 class Movie {
-  constructor(title, director, year) {
+  constructor (title, director, year) {
     this.title = title;
     this.director = director;
     this.year = year;
   }
 
-  print_info() {
-    console.log(`${this.title} is a movie by ${this.director} that released in ${this.year}`); 
+  printInfo() {
+    console.log(`${this.title} is a movie by ${this.director} that came out in ${this.year}`);
   }
 }
 
 let movie = new Movie("Inception", "Christopher Nolan", 2010);
 console.log(movie);
-movie.print_info();
+movie.printInfo();
+
+
+
+
+
+
+
 
 // # 7. Write a Car class with attributes and reader/writer methods for make, model, year, and color. Then write a method that returns the make and model as a single sentence in all lowercase letters.
 class Car {

@@ -1,3 +1,6 @@
+// Write a custom class with valid syntax
+
+
 // # 1. Write a Song class with attributes for name, artist, and duration.
 class Song {
   constructor(name, artist, duration) {
@@ -24,14 +27,17 @@ console.log(rectangle);
 
 // # 3. Write a Person class with attributes for name and age.
 class Person {
-  constructor(name, age) {
+  constructor (name, age) {
     this.name = name;
     this.age = age;
-  }
+  } 
 }
 
 let person = new Person("Rojas", 23);
 console.log(person);
+
+
+
 
 // # 4. Write a Location class with attributes for latitude and longitude.
 class Location {

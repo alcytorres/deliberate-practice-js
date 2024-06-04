@@ -1,3 +1,6 @@
+// Write a custom method with valid syntax
+
+
 // # 1. Write a method that takes in a number and returns the number times two. Then run the method and print the result.
 
 function product(number) {
@@ -62,11 +65,11 @@ function average(number1, number2, number3) {
 console.log(average(10, 20, 30));
 
 // # 10. Write a method that takes in a number and returns the number times 10 plus 30. Then run the method and print the result.
-function product3 (number) {
+function product3(number) {
   return number * 10 + 30;
 }
-console.log(product3(10));
 
+console.log(product3(10));
 
 // function product3 (number) {
 //   return number * 10 + 30;
