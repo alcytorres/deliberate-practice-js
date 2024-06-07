@@ -154,7 +154,6 @@ console.log(letterFrequencies);
 
 
 
-
 // let word = "bookkeeper";
 // let letterFrequencies = {};
 // let index = 0;
