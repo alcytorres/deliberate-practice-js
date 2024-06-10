@@ -34,24 +34,6 @@
 
 
 
-
-
-// // # 6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
-// // #    For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
-// // # (REDO)
-// let items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}];
-// let cheapestItem = items[0];
-// let index = 0;
-// while (index < items.length) {
-//   let item = items[index];
-//   if (item.price < cheapestItem.price) {
-//     cheapestItem = items[index];
-//   } index++;
-// }
-
-// console.log(cheapestItem);
-
-
 // Define a simple function
 function sayHi() {
   console.log("Hi!");

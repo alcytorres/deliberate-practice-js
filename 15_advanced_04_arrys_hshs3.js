@@ -3,9 +3,12 @@
 // Tips
 //  If converting data into a hash find the key and value 
 // Setting a variable === undefined
+
+// Learn these Methods
 // forEach method
-// parseInt method
+// map method
 // Object.entries
+// parseInt method
 
 //Array
 // Adding a value:  array.push(value);
@@ -15,45 +18,6 @@
 // Adding a value:  object[key] = value;
 // Modify a value:  object[key] = value;
 
-
-// forEach method
-// Executes a provided function once for each array element.
-// Use Case: Iterating over an array to perform actions on each element without returning a new array.
-let array = [1, 2, 3];
-array.forEach((element) => {
-  console.log(element);
-});
-// Output: 1 2 3
-
-
-// map method
-// Creates a new array populated with the results of calling a provided function on every element in the calling array.
-// Use Case: Transforming each element in an array and returning a new array with the transformed elements, useful for applying a function to every item in the array without mutating the original array.
-
-let array1 = [1, 2, 3];
-let doubled = array.map((element) => element * 2);
-console.log(doubled);
-// Output: [2, 4, 6]
-
-
-// Object.entries
-// Returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
-// Use Case: Converting an object to an array for easier iteration or manipulation, often used in conjunction with array methods like map or forEach.
-
-let obj = { a: 1, b: 2, c: 3 };
-let entries = Object.entries(obj);
-console.log(entries);
-// // Output: [['a', 1], ['b', 2], ['c', 3]]
-
-
-// parseInt method
-// Parses a string argument and returns an integer of the specified radix (base).
-// Use Case: Converting a string to an integer, often when dealing with user input or parsing data.
-
-let str = "123";
-let num = parseInt(str, 10);
-console.log(num);
-// Output: 123
 
 
 // 1. Convert an array of arrays into a hash.
@@ -135,21 +99,21 @@ console.log(num);
 // For example, "bookkeeper" becomes {"b" => 1, "o" => 2, "k" => 2, "e" => 3, "p" => 1, "r" => 1}.
 
 
-let word = "bookkeeper";
-let letterFrequencies = {};
-let index = 0;
-while (index < word.length) {
-  let letter = word[index];   
-  // If the letter is not already a key in the object, initialize it with a value of 0
-  if (letterFrequencies[letter] === undefined) {
-    letterFrequencies[letter] = 0;
-  }
-  // Increment the count for the letter
-  letterFrequencies[letter]++;
-  index++;
-}
+// let word = "bookkeeper";
+// let letterFrequencies = {};
+// let index = 0;
+// while (index < word.length) {
+//   let letter = word[index];   
+//   // If the letter is not already a key in the object, initialize it with a value of 0
+//   if (letterFrequencies[letter] === undefined) {
+//     letterFrequencies[letter] = 0;
+//   }
+//   // Increment the count for the letter
+//   letterFrequencies[letter]++;
+//   index++;
+// }
 
-console.log(letterFrequencies);
+// console.log(letterFrequencies);
 
 
 
@@ -171,20 +135,18 @@ console.log(letterFrequencies);
 
 // 4. Convert a hash into an array of arrays.
 //    For example, {"chair" => 100, "book" => 14} becomes [["chair", 100], ["book", 14]].
-//    Research how to solve this problem 
+//    Note the official solution to this probelm is INCORRECT
+//    Research how to solve this problem
+//    Anonymous Functions 
 
+//MY SOLUTION:  Answer =  [["chair", 100], ["book", 14]]
 // let things = { chair: 100, book: 14 };
-// let namePricePairs = [];
-// let index = 0;
-// while (index < things.length) {
-//   namePricePairs.push(name, price);
-//   index++;
-// }
-
-// console.log(namePricePairs);
+// let entries = Object.entries(things);
+// console.log(entries);
 
 
-// Solution
+
+//OFFICIAL SOLUTION   Answer =  ["chair", 100, "book", 14]
 // let things = { chair: 100, book: 14 };
 // let namePricePairs = [];
 // Object.entries(things).forEach(function ([name, price]) {
