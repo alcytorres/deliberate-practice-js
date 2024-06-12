@@ -51,6 +51,7 @@ console.log(num);
 let show = function () {
   console.log('Anonymous function');
 };
+show();
 
 let test = () => console.log('Anonymous function');
 test();
