@@ -8,10 +8,10 @@
 // let flatArray = [];
 // let index1 = 0;
 // while (index1 < numbers.length) {
-//   let firstPair = numbers[index1];
+//   let currentPair = numbers[index1];
 //   let index2 = 0;
-//   while (index2 < firstPair.length) {
-//     let currentNumber = firstPair[index2];
+//   while (index2 < currentPair.length) {
+//     let currentNumber = currentPair[index2];
 //     flatArray.push(currentNumber);
 //     index2++;
 //   }
@@ -21,8 +21,11 @@
 // console.log(flatArray);
 
 
+
+
 // # 2. Use a nested loop with two arrays of strings to create a new array of strings with each string combined.
 // # For example, ["a", "b", "c"] and ["d", "e", "f", "g"] becomes ["ad", "ae", "af", "ag", "bd", "be", "bf", "bg", "cd", "ce", "cf", "cg"].
+
 
 // let strings1 = ["a", "b", "c"];
 // let strings2 = ["d", "e", "f", "g"];
@@ -96,20 +99,22 @@
 // # 5. Use a nested loop to compute the sum of all the numbers in an array of number pairs.
 // # For example, [[1, 3], [8, 9], [2, 16]] becomes 39.
 
-// let pairs = [[1, 3], [8, 9], [2, 16]];
-// let sum = 0;
-// let index1 = 0;
-// while (index1 < pairs.length) {
-//   let currentPair = pairs[index1];
-//   let index2 = 0;
-//   while (index2 < currentPair.length) {
-//     sum = sum + currentPair[index2];
-//     index2++;
-//   }
-//   index1++;
-// }
 
-// console.log(sum);
+let pairs = [[1, 3], [8, 9], [2, 16]];
+let sum = 0;
+let index1 = 0;
+while (index1 < pairs.length) {
+  let currentPair = pairs[index1];
+  let index2 = 0;
+  while (index2 < currentPair.length) {
+    let currentNumber = currentPair[index2];
+    sum = sum + currentNumber;
+    index2++;
+  }
+  index1++;
+}
+
+console.log(sum);
 
 
 
