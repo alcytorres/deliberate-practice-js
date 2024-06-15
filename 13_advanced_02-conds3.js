@@ -8,6 +8,26 @@
 // If the customer is 60 years old or older, the ticket price is $7.
 
 
+let age = 23;
+let movieTime = 21;
+let price;
+
+if (age <= 12) {
+  price = 5; 
+} else if (age >= 13 && age <= 59) { 
+  if (movieTime < 18) {
+    price = 7;
+  } else {
+    price = 10;
+  }
+} else if (age >= 60) {
+  price = 7;
+}
+
+console.log(`The price of a movie ticket is $${price}`);
+
+
+
 // 2. Write a program to store the type of book (regular, reference, or special collection) and the number of days its overdue. Then calculate the fine amount based on the following conditions:
 
 // If the book is a regular book and overdue by up to 7 days, the fine is $1 per day.

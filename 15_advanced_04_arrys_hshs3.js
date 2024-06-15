@@ -135,8 +135,9 @@
 let a = { 321: { name: "Alice", age: 31 }, 322: { name: "Maria", age: 27 } };
 let b = [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}];
 
-// let people = { 321: { name: "Alice", age: 31 }, 322: { name: "Maria", age: 27 } };
-// let peopleArray = [];
+let people = { 321: { name: "Alice", age: 31 }, 322: { name: "Maria", age: 27 } };
+let peopleArray = [];
+
 
 // // Convert the Hash to an Array and Iterate Over Each Entry:
 // Object.entries(people).forEach(function ([id, person]) {
@@ -174,6 +175,14 @@ let b = [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}];
 
 // 7. Convert a hash into a flat array containing all the hash’s keys and values.
 // For example, {"a" => 1, "b" => 2, "c" => 3, "d" => 4} becomes ["a", 1, "b", 2, "c", 3, "d", 4].
+
+// let hash = { a: 1, b: 2, c: 3, d: 4 };
+// let flattenedArray = [];
+// Object.entries(hash).forEach(function ([key, value]) {
+//   flattenedArray.push(key, value);
+// });
+
+// console.log(flattenedArray);
 
 
 // let hash = { a: 1, b: 2, c: 3, d: 4 };
@@ -213,6 +222,39 @@ let answer = {
 //   { name: "chair", color: "red", weight: 10 },
 //   { name: "book", color: "black", weight: 1 },
 // ];
+// // Initialize an empty hash to store the combined data
+// let combinedObject = {};
+// // Initialize the index for the loop
+// let index = 0;
+// // Loop through the items array
+// while (index < items.length) {
+//   // Extract the current item
+//   let item = items[index];
+//   // Extract the name, color, and weight from the current item
+//   let name = item.name;
+//   let color = item.color;
+//   let weight = item.weight;
+//   // Get the price from the priceObject using the name
+//   let price = priceObject[name];
+//   // Combine the data into a new hash and add it to combinedObject
+//   combinedObject[name] = {price, color, weight};
+//   // Increment the index to move to the next item
+//   index++;
+// }
+
+// console.log(combinedObject);
+
+
+
+
+
+
+
+// let priceObject = { chair: 75, book: 15 };
+// let items = [
+//   { name: "chair", color: "red", weight: 10 },
+//   { name: "book", color: "black", weight: 1 },
+// ];
 // let combinedObject = {};
 // let index = 0;
 // while (index < items.length) {
@@ -234,7 +276,7 @@ let answer = {
 // 9. Convert an array of hashes into a hash of arrays, using the author as keys and the titles as values.
 // For example, [{author: "Jeff Smith", title: "Bone"}, {author: "George Orwell", title: "1984"}, {author: "Jeff Smith", title: "RASL"}] becomes {"Jeff Smith" => ["Bone", "RASL"], "George Orwell" => ["1984"]}.
 
-// {"Jeff Smith" => ["Bone", "RASL"], "George Orwell" => ["1984"]}
+// let ans = {Jeff Smith: ["Bone", "RASL"], George Orwell: ["1984"]}
 
 
 // let books = [
@@ -244,16 +286,26 @@ let answer = {
 // ];
 // let booksObject = {};
 // let index = 0;
-// while () {
-
+// while (index < books.length) {
+//   let book = books[index];
+//   let author = book.author;
+//   let title = book.title;
+//   if (booksObject[author] === undefined) {
+//     booksObject[author] = [];
+//   }
+//   booksObject[author].push(title);
+//   index++;
 // }
 
-// console.log()
+// console.log(booksObject);
+
 
 
 
 // 10. Given a hash, create a new hash that has the keys and values switched.
 // For example, {"a" => 1, "b" => 2, "c" => 3} becomes {1 => "a", 2 => "b", 3 => "c"}.
+
+
 
 // let originalObject = { a: 1, b: 2, c: 3 };
 // let flippedObject = {};
