@@ -6,25 +6,68 @@
 // Adding a value:  object[key] = value;
 // Modify a value:  object[key] = value;
 
+// Anonymous Functions: Both are EQUAL to each other 
+let show = function () {
+  console.log('Anonymous function');
+};
+show();
+
+let test = () => console.log('Anonymous function');
+test();
+
 
 // forEach method
 // Executes a provided function once for each array element.
 // Use Case: Iterating over an array to perform actions on each element WITHOUT returning a new array.
 let array = [1, 2, 3];
 array.forEach((element) => {
-  console.log(element);
+  console.log(element * 2);
 });
-// Output: 1 2 3
+// Output: 2 4 6
 
 
 // map method
 // Creates a new array populated with the results of calling a provided function on every element in the calling array.
 // Use Case: Transforming each element in an array and returning a NEW ARRAY with the transformed elements, useful for applying a function to every item in the array without mutating the original array.
 
-let array1 = [1, 2, 3];
-let doubled = array.map((element) => element * 2);
-console.log(doubled);
-// Output: [2, 4, 6]
+let numbers = [1, 2, 3];
+let tripled = numbers.map(number => number * 3);
+console.log(tripled);
+// Output: [3, 6, 9]
+
+
+// Array.prototype.filter()
+// Description: Creates a new array with all elements that pass the test implemented by the provided function.
+// Primary use case: Filtering elements from an array based on a condition.
+let numbers1 = [1, 2, 3, 4, 5, 6];
+let evens = numbers1.filter(num => num % 2 === 0);
+console.log(evens); // [2, 4, 6]
+
+
+// Array.prototype.reduce()
+// Description: Executes a reducer function on each element of the array, resulting in a single output value.
+// Primary use case: Summarizing or combining values in an array.
+let numbers3 = [1, 2, 3, 4];
+let sum = numbers3.reduce((total, num) => total + num, 0);
+console.log(sum); // 10
+
+
+Array.prototype.find()
+
+
+String.prototype.replace()
+
+
+String.prototype.split()
+
+
+Array.prototype.push()
+
+
+Array.prototype.pop()
+
+
+Object.keys()
 
 
 // Object.entries
@@ -32,8 +75,8 @@ console.log(doubled);
 // Use Case: Converting an object to an ARRAY for easier iteration or manipulation, often used in conjunction with array methods like map or forEach.
 
 let obj = { a: 1, b: 2, c: 3 };
-let entries = Object.entries(obj);
-console.log(entries);
+let newArray = Object.entries(obj);
+console.log(newArray);
 // // Output: [['a', 1], ['b', 2], ['c', 3]]
 
 
@@ -47,11 +90,4 @@ console.log(num);
 // Output: 123
 
 
-// Anonymous Functions: Both are EQUAL to each other 
-let show = function () {
-  console.log('Anonymous function');
-};
-show();
 
-let test = () => console.log('Anonymous function');
-test();

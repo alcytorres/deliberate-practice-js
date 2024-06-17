@@ -305,8 +305,6 @@ let answer = {
 // 10. Given a hash, create a new hash that has the keys and values switched.
 // For example, {"a" => 1, "b" => 2, "c" => 3} becomes {1 => "a", 2 => "b", 3 => "c"}.
 
-
-
 // let originalObject = { a: 1, b: 2, c: 3 };
 // let flippedObject = {};
 // Object.entries(originalObject).forEach(function ([key, value]) {

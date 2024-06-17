@@ -8,23 +8,23 @@
 // If the customer is 60 years old or older, the ticket price is $7.
 
 
-let age = 23;
-let movieTime = 21;
-let price;
+// let age = 23;
+// let movieTime = 21;
+// let price;
 
-if (age <= 12) {
-  price = 5; 
-} else if (age >= 13 && age <= 59) { 
-  if (movieTime < 18) {
-    price = 7;
-  } else {
-    price = 10;
-  }
-} else if (age >= 60) {
-  price = 7;
-}
+// if (age <= 12) {
+//   price = 5; 
+// } else if (age >= 13 && age <= 59) { 
+//   if (movieTime < 18) {
+//     price = 7;
+//   } else {
+//     price = 10;
+//   }
+// } else if (age >= 60) {
+//   price = 7;
+// }
 
-console.log(`The price of a movie ticket is $${price}`);
+// console.log(`The price of a movie ticket is $${price}`);
 
 
 
@@ -34,6 +34,43 @@ console.log(`The price of a movie ticket is $${price}`);
 // If the book is a regular book and overdue by more than 7 days, the fine is $2 per day.
 // If the book is a reference book, there is no fine, regardless of the number of days overdue.
 // If the book is a special collection book, the fine is $5 per day, regardless of the number of days overdue.
+
+
+// let bookType = "special collection";
+// let daysOverdue = 30;
+// let fine;
+
+// if (bookType === "regular") {
+//   if (daysOverdue <= 7) {
+//     fine = 1 * daysOverdue;
+//   } else {
+//     fine = 2 * daysOverdue;
+//   } 
+// } else if (bookType === "reference") {
+//   fine = 0; 
+// } else if (bookType === "special collection") {
+//   fine = 5 * daysOverdue; 
+// }
+
+// console.log(`fine amount: $${fine}`);
+
+
+// let bookType = "reference";
+// let daysOverdue = 30;
+// let fine;
+
+// if (bookType === "regular" && daysOverdue <= 7) {
+//   fine = 1 * daysOverdue;
+// } else if (bookType === "regular" && daysOverdue > 7) {
+//   fine = 2 * daysOverdue;
+// } else if (bookType === "reference") {
+//   fine = 0; 
+// } else if (bookType === "special") {
+//   fine = 5 * daysOverdue; 
+// }
+
+// console.log(`fine amount: $${fine}`);
+
 
 
 // 3. Write a program that stores a person's order value and membership level (regular or premium). Then calculate a discount amount based on the following conditions:
