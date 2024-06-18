@@ -50,6 +50,7 @@
 // # 3. Use a nested loop with one array of strings to create a new array that contains every combination of each string with every other string in the array.
 // # For example, ["a", "b", "c", "d"] becomes ["ab", "ac", "ad", "ba", "bc", "bd", "ca", "cb", "cd", "da", "db", "dc"].
 
+
 // let strings1 = ["a", "b", "c", "d"];
 // let strings2 = [];
 // let index1 = 0;
@@ -73,6 +74,7 @@
 // # 4. Use a nested loop to find the largest product of any two different numbers within a given array.
 // # For example, [5, -2, 1, -9, -7, 2, 6] becomes 63.
 // REDO (Got it Right).
+
 
 // let numbers = [5, -2, 1, -9, -7, 2, 6];
 // let maxProduct = numbers[0] * numbers[1];

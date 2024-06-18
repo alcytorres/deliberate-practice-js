@@ -111,7 +111,6 @@
 //    Anonymous Functions 
 
 
-
 //MY SOLUTION:  Answer =  [["chair", 100], ["book", 14]]
 // let things = { chair: 100, book: 14 };
 // let entries = Object.entries(things);
@@ -175,6 +174,7 @@ let peopleArray = [];
 
 // 7. Convert a hash into a flat array containing all the hash’s keys and values.
 // For example, {"a" => 1, "b" => 2, "c" => 3, "d" => 4} becomes ["a", 1, "b", 2, "c", 3, "d", 4].
+
 
 // let hash = { a: 1, b: 2, c: 3, d: 4 };
 // let flattenedArray = [];
